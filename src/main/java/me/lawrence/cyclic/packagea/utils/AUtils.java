@@ -1,6 +1,6 @@
 package me.lawrence.cyclic.packagea.utils;
 
-import me.lawrence.cyclic.packageb.Constants;
+import me.lawrence.cyclic.packageb.BUtils;
 
 public final class AUtils {
 
@@ -9,6 +9,6 @@ public final class AUtils {
 
     public static void trivial() {
         System.out.println("trivial util method");
-        System.out.println(Constants.TEST_STR);
+        System.out.println(BUtils.getTestStr());
     }
 }
