@@ -1,11 +1,8 @@
 package me.lawrence.cyclic.packageb;
 
-public final class BUtils {
+public final class ClassB {
 
-    private BUtils() {
-    }
-
-    public static String getTestStr() {
+    public String getTestStr() {
         return "testStr" + System.currentTimeMillis();
     }
 }
