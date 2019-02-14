@@ -2,4 +2,4 @@ The highwheel maven plugin is not able to detect the package level cyclic depend
 
 Here is what Intellij shows:
 
-![Image of Intellij analysis](image/Capture.PNG) 
+![Image of Intellij analysis](image/snap.png) 
